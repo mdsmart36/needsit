@@ -1,1 +1,6 @@
 h1 {{message}}
+
+form 
+  label URL:
+  input(type='text', ng-model="newNeed")
+  input.btn.btn-success(type="submit", ng-click='addNeeds(newNeed)', value='I NEEDS IT!!')
