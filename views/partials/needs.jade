@@ -4,3 +4,9 @@ form
   label URL:
   input(type='text', ng-model="newNeed")
   input.btn.btn-success(type="submit", ng-click='addNeeds(newNeed)', value='I NEEDS IT!!')
+
+
+h4 I NEEDS TO HAVE {{needs.length}} THINGYS!!!
+.things 
+  .justOne(ng-repeat="need in needs")
+    img(src= '{{need}}')

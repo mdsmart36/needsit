@@ -15,7 +15,7 @@ controllers.controller('NeedsController', ['$scope', function($scope){
 
   $scope.addNeeds=function(thingy){
     $scope.needs.push(thingy);
-    $scope.newNeed='';
+    $scope.newNeed="";
   };
 
 }]);
